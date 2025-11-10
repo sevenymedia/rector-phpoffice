@@ -89,7 +89,7 @@ CODE_SAMPLE
             return null;
         }
 
-        if (! $this->isName($node->name, '*ByColumnAndRow')) {
+        if (! str_ends_with($this->getName($node->name), 'ByColumnAndRow')) {
             return null;
         }
 
