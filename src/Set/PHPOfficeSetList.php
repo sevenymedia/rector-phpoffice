@@ -4,12 +4,10 @@ declare(strict_types=1);
 
 namespace Rector\PHPOffice\Set;
 
-use Rector\Set\Contract\SetListInterface;
-
 /**
  * @api
  */
-final class PHPOfficeSetList implements SetListInterface
+final class PHPOfficeSetList
 {
     /**
      * @api
