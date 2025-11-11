@@ -22,6 +22,16 @@ use Symplify\RuleDocGenerator\ValueObject\RuleDefinition;
  */
 final class ChangePdfWriterRector extends AbstractRector
 {
+    /**
+     * @readonly
+     */
+    private ValueResolver $valueResolver;
+
+    public function __construct(ValueResolver $valueResolver)
+    {
+        $this->valueResolver = $valueResolver;
+    }
+
     public function getRuleDefinition(): RuleDefinition
     {
         return new RuleDefinition('Change init of PDF writer', [
