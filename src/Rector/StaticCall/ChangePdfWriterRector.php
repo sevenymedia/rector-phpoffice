@@ -11,7 +11,7 @@ use PhpParser\Node\Name\FullyQualified;
 use PHPStan\Type\ObjectType;
 use PHPStan\Type\Type;
 use Rector\Rector\AbstractRector;
-use Rector\Core\Util\StringUtils;
+use Rector\Util\StringUtils;
 use Rector\PhpParser\Node\Value\ValueResolver;
 use Symplify\RuleDocGenerator\ValueObject\CodeSample\CodeSample;
 use Symplify\RuleDocGenerator\ValueObject\RuleDefinition;
